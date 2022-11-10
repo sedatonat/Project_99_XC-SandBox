@@ -11,7 +11,6 @@
 		E31E86E72919F584005075D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E86E62919F584005075D0 /* ContentView.swift */; };
 		E31E86E92919F585005075D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31E86E82919F585005075D0 /* Assets.xcassets */; };
 		E31E86EC2919F585005075D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31E86EB2919F585005075D0 /* Preview Assets.xcassets */; };
-		E3272A5E2919F74200972A72 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3272A5D2919F74200972A72 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +19,6 @@
 		E31E86E62919F584005075D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E31E86E82919F585005075D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E31E86EB2919F585005075D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E3272A5D2919F74200972A72 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				E31E86E62919F584005075D0 /* ContentView.swift */,
-				E31E86E42919F584005075D0 /* Project_99_Xc_SandboxApp.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -84,7 +81,6 @@
 		E3272A5C2919F72C00972A72 /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				E3272A5D2919F74200972A72 /* SwiftUIView.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -92,6 +88,7 @@
 		E37FEE50291D785A007DE3D4 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				E31E86E42919F584005075D0 /* Project_99_Xc_SandboxApp.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -190,7 +187,6 @@
 			files = (
 				E31E86E72919F584005075D0 /* ContentView.swift in Sources */,
 				E31E86E52919F584005075D0 /* Project_99_Xc_SandboxApp.swift in Sources */,
-				E3272A5E2919F74200972A72 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
