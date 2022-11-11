@@ -11,6 +11,8 @@
 		E31E86E72919F584005075D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E86E62919F584005075D0 /* ContentView.swift */; };
 		E31E86E92919F585005075D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31E86E82919F585005075D0 /* Assets.xcassets */; };
 		E31E86EC2919F585005075D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31E86EB2919F585005075D0 /* Preview Assets.xcassets */; };
+		E37FEE55291D7A0E007DE3D4 /* Problem 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37FEE54291D7A0E007DE3D4 /* Problem 1.swift */; };
+		E37FEE5E291DC69E007DE3D4 /* Test 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37FEE5D291DC69E007DE3D4 /* Test 2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		E31E86E62919F584005075D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E31E86E82919F585005075D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E31E86EB2919F585005075D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E37FEE54291D7A0E007DE3D4 /* Problem 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Problem 1.swift"; path = "Project_99_Xc-Sandbox/View/Problem 1.swift"; sourceTree = SOURCE_ROOT; };
+		E37FEE5D291DC69E007DE3D4 /* Test 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test 2.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +69,6 @@
 		E31E86F22919F5A1005075D0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				E31E86E62919F584005075D0 /* ContentView.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -96,6 +99,9 @@
 		E37FEE51291D7889007DE3D4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E31E86E62919F584005075D0 /* ContentView.swift */,
+				E37FEE54291D7A0E007DE3D4 /* Problem 1.swift */,
+				E37FEE5D291DC69E007DE3D4 /* Test 2.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -186,6 +192,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E31E86E72919F584005075D0 /* ContentView.swift in Sources */,
+				E37FEE5E291DC69E007DE3D4 /* Test 2.swift in Sources */,
+				E37FEE55291D7A0E007DE3D4 /* Problem 1.swift in Sources */,
 				E31E86E52919F584005075D0 /* Project_99_Xc_SandboxApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
