@@ -7,19 +7,23 @@
 
 import SwiftUI
 
-struct Test1: View {
+struct Test2: View {
+    @State private var useRedText = false
+
     var body: some View {
-        
-        
-        Text("hello")
-        
-        
+        Button("Hello World") {
+            // flip the Boolean between true and false
+            useRedText.toggle()
+        }
+        .foregroundColor(useRedText ? .red : .blue)
     }
 }
 
 
-struct Test1_previews: PreviewProvider {
+struct Test2_previews: PreviewProvider {
     static var previews: some View {
-        Test1()
+        Test2()
     }
 }
+
+
